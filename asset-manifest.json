@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Evan-CSE/Crypto-Test-Project/static/css/main.164930a2.css",
+    "main.js": "/Evan-CSE/Crypto-Test-Project/static/js/main.93d1bca8.js",
+    "static/media/bitcoinBg.jpg": "/Evan-CSE/Crypto-Test-Project/static/media/bitcoinBg.62b00bb3360fc9060ed8.jpg",
+    "static/media/laptop-2298286_1280.png": "/Evan-CSE/Crypto-Test-Project/static/media/laptop-2298286_1280.69f1ad98156a3cca675a.png",
+    "index.html": "/Evan-CSE/Crypto-Test-Project/index.html",
+    "main.164930a2.css.map": "/Evan-CSE/Crypto-Test-Project/static/css/main.164930a2.css.map",
+    "main.93d1bca8.js.map": "/Evan-CSE/Crypto-Test-Project/static/js/main.93d1bca8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.164930a2.css",
+    "static/js/main.93d1bca8.js"
+  ]
+}
