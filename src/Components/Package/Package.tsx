@@ -3,10 +3,12 @@ import React from 'react';
 import {PackageCard} from '../PackageCard/PackageCard';
 
 export const Package = () : JSX.Element => {
+
   const packagesData = [
-    { billingAmount: '$10', expiryDate: '30 days' },
-    { billingAmount: '$20', expiryDate: '60 days' },
-    { billingAmount: '$30', expiryDate: '90 days' },
+    { billingAmount: '150 tk', expiryDate: '30 days' },
+    { billingAmount: '200 tk', expiryDate: '60 days' },
+    { billingAmount: '500 tk', expiryDate: '180 days' },
+    { billingAmount: '700 tk', expiryDate: '365 days' }
   ];
 
   return (
@@ -15,7 +17,7 @@ export const Package = () : JSX.Element => {
         <h1 className = "text-4xl text-white">
             Packages
         </h1>
-        <div className = "flex justify-center">
+        <div className = "grid grid-cols-2 md:grid-cols-3 gap-4 justify-center">
           {packagesData.map((packageData, index) => (
             <PackageCard key = {index} {...packageData} />
           ))}
