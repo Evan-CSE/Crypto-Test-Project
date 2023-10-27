@@ -11,13 +11,12 @@ export const App = () : JSX.Element => {
     backgroundImage: `url(${background})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    position: 'fixed'  as 'fixed',
     width: '100%',
     height: '100%',
     zIndex: -1,
 }
   return (
-    <div style = {style}>
+    <div style = {style} className = 'h-100'>
       <HeaderMenu></HeaderMenu>
       <TopHeaderContainer></TopHeaderContainer>
       <Package></Package>
