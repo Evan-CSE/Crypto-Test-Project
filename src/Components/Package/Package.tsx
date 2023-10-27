@@ -17,9 +17,11 @@ export const Package = () : JSX.Element => {
         <h1 className = "text-4xl text-white">
             Packages
         </h1>
-        <div className = "grid grid-cols-2 md:grid-cols-3 gap-4 justify-center">
+        <div className = "grid grid-cols-1 md:grid-cols-3 gap-4">
           {packagesData.map((packageData, index) => (
-            <PackageCard key = {index} {...packageData} />
+            <div className = 'mx-auto'>
+                <PackageCard key = {index} {...packageData} />
+            </div>
           ))}
         </div>
       </div>
